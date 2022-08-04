@@ -38,9 +38,11 @@ var remainderValue = givenValue % dividedValue;
 console.log(remainderValue);
 
 //problem 5
-var age = 21;
-age += 8;
-console.log(age);
-console.log(17 % 5);
+// var age = 21;
+// age += 8;
+// console.log(age);
+// console.log(17 % 5);
+
+
 
 

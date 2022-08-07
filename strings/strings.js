@@ -29,5 +29,14 @@ const search = lyric.includes('tmi');
 const onlinePrint = lyric.toUpperCase().includes(serachString.toUpperCase());
 console.log(onlinePrint);
 
-var index = lyric.indexOf('kala');
-console.log(index);
+// console.log(lyric.indexOf('kala'));
+if (lyric.indexOf('kala') !== -1) {
+    console.log('exits inside the string');
+}
+else {
+    console.log('Dont exits inside the string');
+}
+
+console.log(lyric.startsWith('ami'));
+console.log(lyric.endsWith('ni'));
+
